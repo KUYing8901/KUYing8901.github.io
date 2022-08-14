@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <title>Kuang Ying-Tong's Portfolio</title>
+</head>
+
+<body>
+  <header data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top justify-content-around">
+      <a class="navbar-brand" href="index.html">YingTong</a>
+      <ul class="navbar-nav">
+        <li class="nav-item px-2">
+          <a class="nav-link" href="index.html#About">關於我</a>
+        </li>
+        <li class="nav-item dropdown px-2">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            作品集
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="index.html#Derivative">二創</a>
+            <a class="dropdown-item" href="index.html#Project">專案</a>
+          </div>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="#Contact">聯絡資訊</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <section style="padding:60px"></section>
+    <div class="row">
+      <div class="col d-flex justify-content-center py-5">
+        <img class="img-fluid" width="300" src="Image/Project_Spirit/LOGO.png" alt="LOGO.png">
+      </div>
+    </div>
+    <section>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GCSpG7O6h54" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="padding:50px"></section>
+    <section>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2rYLp_pJ5WQ" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="padding:50px"></section>
+    <div class="row">
+      <div class="col text-center">
+        <h1>專案簡介</h1>
+        <p>為大四的「畢業專題」。</p>
+        <p>上方為遊戲的「宣傳影片」。</p>
+        <p>以及遊戲的「操作影片」。（我負責剪輯）</p>
+      </div>
+      <div class="col text-center">
+        <h1>負責內容</h1>
+        <p>怪物設計｜角色動態繪製｜立繪繪製｜操作影片剪輯</p>
+      </div>
+    </div>
+    <section style="padding:50px"></section>
+    <div class="row">
+      <div class="col text-center">
+        <h1>角色立繪</h1>
+        <p>完成時間：2022/03</p>
+        <p>角色為組員設計，我負責繪製立繪。</p>
+        <p>原本要使用在宣傳片中，之後因為製作時間緊湊等因素未採用。</p>
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <div id="ClickImage" class="col-6 col-sm-4 col-md-4 col-lg-2" data-toggle="modal" data-target="#ModalImage10">
+        <img src="Image/Project_Spirit/Characters/ChaImg_Potter.png" alt="ChaImg_Potter" width="100%">
+      </div>
+      <div id="ClickImage" class="col-6 col-sm-4 col-md-4 col-lg-2" data-toggle="modal" data-target="#ModalImage11">
+        <img src="Image/Project_Spirit/Characters/ChaImg_Mirakey.png" alt="ChaImg_Mirakey" width="100%">
+      </div>
+      <div id="ClickImage" class="col-6 col-sm-4 col-md-4 col-lg-2" data-toggle="modal" data-target="#ModalImage12">
+        <img src="Image/Project_Spirit/Characters/ChaImg_Betiff.png" alt="ChaImg_Betiff" width="100%">
+      </div>
+      <div id="ClickImage" class="col-6 col-sm-4 col-md-4 col-lg-2" data-toggle="modal" data-target="#ModalImage13">
+        <img src="Image/Project_Spirit/Characters/ChaImg_Fes.png" alt="ChaImg_Fes" width="100%">
+      </div>
+      <div id="ClickImage" class="col-6 col-sm-4 col-md-4 col-lg-2" data-toggle="modal" data-target="#ModalImage14">
+        <img src="Image/Project_Spirit/Characters/ChaImg_Hogan.png" alt="ChaImg_Hogan" width="100%">
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="ModalImage10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" id="DialogModal">
+        <div class="text-center">
+          <section style="padding:50px"></section>
+          <img src="Image/Project_Spirit/CharName/Potter.png" alt="PotterName.png">
+          <section style="padding:50px"></section>
+          <p>遊戲裡的男主角，由玩家操控。</p>
+          <p>使用「劍」，為近距離攻擊型。</p>
+          <img src="Image/Project_Spirit/Characters/Potter.png" alt="Potter.png">
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="ModalImage11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" id="DialogModal">
+        <div class="text-center">
+          <section style="padding:50px"></section>
+          <img src="Image/Project_Spirit/CharName/Mirakey.png" alt="MirakeyName.png">
+          <section style="padding:50px"></section>
+          <p>遊戲裡的女主角，由玩家操控。</p>
+          <p>使用「弓」，為遠距離攻擊型。</p>
+          <img src="Image/Project_Spirit/Characters/Mirakey.png" alt="Mirakey.png">
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="ModalImage12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" id="DialogModal">
+        <div class="text-center">
+          <section style="padding:50px"></section>
+          <img src="Image/Project_Spirit/CharName/Betiff.png" alt="BetiffName.png">
+          <section style="padding:50px"></section>
+          <p>遊戲裡的BOSS之一。</p>
+          <p>使用「槌子」，會拉近與玩家的距離，或使用彈力魔法球進行攻擊。</p>
+          <img src="Image/Project_Spirit/Characters/Betiff.png" alt="Betiff.png">
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="ModalImage13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" id="DialogModal">
+        <div class="text-center">
+          <section style="padding:50px"></section>
+          <img src="Image/Project_Spirit/CharName/Fes.png" alt="FesName.png">
+          <section style="padding:50px"></section>
+          <p>遊戲裡的BOSS之一。</p>
+          <p>使用「雙刃劍」，會速攻、也會使用分身進行攻擊。</p>
+          <img src="Image/Project_Spirit/Characters/Fes.png" alt="Fes.png">
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="ModalImage14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" id="DialogModal">
+        <div class="text-center">
+          <section style="padding:50px"></section>
+          <img src="Image/Project_Spirit/CharName/Hogan.png" alt="HoganName.png">
+          <section style="padding:50px"></section>
+          <p>遊戲裡的幕後黑手，只在結局裡出現。</p>
+          <img src="Image/Project_Spirit/Characters/Hogan.png" alt="Hogan.png">
+        </div>
+      </div>
+    </div>
+    <section style="padding:50px"></section>
+    <div class="row">
+      <div class="col text-center">
+        <h1>動作序列圖</h1>
+        <p>使用軟體：CLIP Studio Paint EX</p>
+        <p>繪製關鍵幀與調整拍數，攻擊動作有與程式組員討論並繪製。</p>
+      </div>
+    </div>
+    <section>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/llw2kdGtG_o" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="padding:50px"></section>
+    <div class="row">
+      <div class="col-xs-12 col-s-7 col-md-7 align-self-center">
+        <img src="Image/Project_Spirit/Seq/Seq_Potter_01.png" alt="Seq_Potter_01.png">
+      </div>
+      <div class="col-xs-12 col-s-5 col-md-5 align-self-center">
+        <img src="Image/Project_Spirit/Seq/GIF/Potter.gif" alt="Potter.gif" width="100%">
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-auto">
+        <div id="ClickImage" data-toggle="modal" data-target="#ModalImage15">
+          <img class="mx-1" id="SeqImage" src="Image/Project_Spirit/Seq/Preview/Pre_Potter_01.png"
+            alt="Pre_Potter_01.png">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div id="ClickImage" data-toggle="modal" data-target="#ModalImage16">
+          <img class="mx-1" id="SeqImage" src="Image/Project_Spirit/Seq/Preview/Pre_Potter_02.png"
+            alt="Pre_Potter_02.png">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div id="ClickImage" data-toggle="modal" data-target="#ModalImage17">
+          <img class="mx-1" id="SeqImage" src="Image/Project_Spirit/Seq/Preview/Pre_Potter_03.png"
+            alt="Pre_Potter_03.png">
+        </div>
+      </div>
+    </div>
+    <!-- Modal_Potter -->
+    <div class="modal fade" id="ModalImage15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" id="SeqIMG">
+        <img style="max-width: 750px; margin:auto;" src="Image/Project_Spirit/Seq/Seq_Potter_02.png"
+          alt="Seq_Potter_02.png" width="100%">
+      </div>
+    </div>
+    <div class="modal fade" id="ModalImage16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+      width="100%">
+      <div class="modal-dialog modal-xl" id="SeqIMG">
+        <img src="Image/Project_Spirit/Seq/Seq_Potter_03.png" alt="Seq_Potter_03.png">
+      </div>
+    </div>
+    <div class="modal fade" id="ModalImage17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+      width="100%">
+      <div class="modal-dialog modal-xl" id="SeqIMG">
+        <img src="Image/Project_Spirit/Seq/Seq_Potter_04.png" alt="Seq_Potter_04.png">
+      </div>
+    </div>
+    <section style="padding:50px"></section>
+    <div class="row">
+      <div class="col-xs-12 col-s-5 col-md-5 align-self-center">
+        <img src="Image/Project_Spirit/Seq/GIF/Mirakey.gif" alt="Mirakey_.gif" width="100%">
+      </div>
+      <div class="col-xs-12 col-s-7 col-md-7 align-self-center">
+        <img src="Image/Project_Spirit/Seq/Seq_Mirakey_01.png" alt="Seq_Mirakey_01.png">
+      </div>
+    </div>
+    <div class="row mt-4 justify-content-end">
+      <div class="col-auto">
+        <div id="ClickImage" data-toggle="modal" data-target="#ModalImage18">
+          <img class="mx-1" id="SeqImage" src="Image/Project_Spirit/Seq/Preview/Pre_Mirakey_01.png"
+            alt="Pre_Mirakey_01.png">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div id="ClickImage" data-toggle="modal" data-target="#ModalImage19">
+          <img class="mx-1" id="SeqImage" src="Image/Project_Spirit/Seq/Preview/Pre_Mirakey_02.png"
+            alt="Pre_Mirakey_02.png">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div id="ClickImage" data-toggle="modal" data-target="#ModalImage20">
+          <img class="mx-1" id="SeqImage" src="Image/Project_Spirit/Seq/Preview/Pre_Mirakey_03.png"
+            alt="Pre_Mirakey_03.png">
+        </div>
+      </div>
+    </div>
+    <!-- Modal_Mirakey -->
+    <div class="modal fade" id="ModalImage18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" id="SeqIMG">
+        <img style="max-width: 750px; margin:auto;" src="Image/Project_Spirit/Seq/Seq_Mirakey_02.png"
+          alt="Seq_Mirakey_02.png" width="100%">
+      </div>
+    </div>
+    <div class="modal fade" id="ModalImage19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+      width="100%">
+      <div class="modal-dialog modal-xl" id="SeqIMG">
+        <img src="Image/Project_Spirit/Seq/Seq_Mirakey_03.png" alt="Seq_Mirakey_03.png">
+      </div>
+    </div>
+    <div class="modal fade" id="ModalImage20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+      width="100%">
+      <div class="modal-dialog modal-xl" id="SeqIMG">
+        <img style="max-width: 750px; margin:auto;" src="Image/Project_Spirit/Seq/Seq_Mirakey_04.png"
+          alt="Seq_Mirakey_04.png" width="100%">
+      </div>
+    </div>
+    <section style="padding:50px"></section>
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <img style="max-width: 650px;" src="Image/Project_Spirit/Seq/GIF/Betiff.gif" alt="Betiff.gif" width="100%">
+      </div>
+    </div>
+    <div class="row mt-4 justify-content-center">
+      <div class="col-auto">
+        <div id="ClickImage" data-toggle="modal" data-target="#ModalImage21">
+          <img class="mx-1" id="SeqImage" src="Image/Project_Spirit/Seq/Preview/Pre_Betiff_01.png"
+            alt="Pre_Betiff_01.png">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div id="ClickImage" data-toggle="modal" data-target="#ModalImage22">
+          <img class="mx-1" id="SeqImage" src="Image/Project_Spirit/Seq/Preview/Pre_Betiff_02.png"
+            alt="Pre_Betiff_02.png">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div id="ClickImage" data-toggle="modal" data-target="#ModalImage23">
+          <img class="mx-1" id="SeqImage" src="Image/Project_Spirit/Seq/Preview/Pre_Betiff_03.png"
+            alt="Pre_Betiff_03.png">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div id="ClickImage" data-toggle="modal" data-target="#ModalImage24">
+          <img class="mx-1" id="SeqImage" src="Image/Project_Spirit/Seq/Preview/Pre_Betiff_04.png"
+            alt="Pre_Betiff_03.png">
+        </div>
+      </div>
+    </div>
+    <!-- Modal_Betiff -->
+    <div class="modal fade" id="ModalImage21" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" id="SeqIMG">
+        <img src="Image/Project_Spirit/Seq/Seq_Betiff_01.png" alt="Seq_Mirakey_02.png">
+      </div>
+    </div>
+    <div class="modal fade" id="ModalImage22" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+      width="100%">
+      <div class="modal-dialog modal-xl" id="SeqIMG">
+        <img src="Image/Project_Spirit/Seq/Seq_Betiff_02.png" alt="Seq_Mirakey_03.png">
+      </div>
+    </div>
+    <div class="modal fade" id="ModalImage23" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+      width="100%">
+      <div class="modal-dialog modal-xl" id="SeqIMG">
+        <img src="Image/Project_Spirit/Seq/Seq_Betiff_03.png" alt="Seq_Mirakey_04.png">
+      </div>
+    </div>
+    <div class="modal fade" id="ModalImage24" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+      width="100%">
+      <div class="modal-dialog modal-xl" id="SeqIMG">
+        <img src="Image/Project_Spirit/Seq/Seq_Betiff_04.png" alt="Seq_Mirakey_04.png">
+      </div>
+    </div>
+    <section style="padding:50px"></section>
+    <div class="row mt-4 justify-content-center">
+      <div class="col-auto">
+        <div id="ClickImage" data-toggle="modal" data-target="#ModalImage25">
+          <img class="mx-1" id="SeqImage" src="Image/Project_Spirit/Seq/Preview/Pre_Fes_01.png" alt="Pre_Fes_01.png">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div id="ClickImage" data-toggle="modal" data-target="#ModalImage26">
+          <img class="mx-1" id="SeqImage" src="Image/Project_Spirit/Seq/Preview/Pre_Fes_02.png" alt="Pre_Fes_02.png">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div id="ClickImage" data-toggle="modal" data-target="#ModalImage27">
+          <img class="mx-1" id="SeqImage" src="Image/Project_Spirit/Seq/Preview/Pre_Fes_03.png" alt="Pre_Fes_03.png">
+        </div>
+      </div>
+      <div class="col-auto">
+        <div id="ClickImage" data-toggle="modal" data-target="#ModalImage28">
+          <img class="mx-1" id="SeqImage" src="Image/Project_Spirit/Seq/Preview/Pre_Fes_04.png" alt="Pre_Fes_04.png">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center mt-5">
+        <img style="max-width: 650px;" src="Image/Project_Spirit/Seq/GIF/Fes.gif" alt="Fes.gif" width="100%">
+      </div>
+    </div>
+    <!-- Modal_Fes -->
+    <div class="modal fade" id="ModalImage25" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" id="SeqIMG">
+        <img src="Image/Project_Spirit/Seq/Seq_Fes_01.png" alt="Seq_Fes_01.png">
+      </div>
+    </div>
+    <div class="modal fade" id="ModalImage26" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+      width="100%">
+      <div class="modal-dialog modal-xl" id="SeqIMG">
+        <img src="Image/Project_Spirit/Seq/Seq_Fes_02.png" alt="Seq_Fes_02.png">
+      </div>
+    </div>
+    <div class="modal fade" id="ModalImage27" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+      width="100%">
+      <div class="modal-dialog modal-xl" id="SeqIMG">
+        <img src="Image/Project_Spirit/Seq/Seq_Fes_03.png" alt="Seq_Fes_03.png">
+      </div>
+    </div>
+    <div class="modal fade" id="ModalImage28" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+      width="100%">
+      <div class="modal-dialog modal-xl" id="SeqIMG">
+        <img src="Image/Project_Spirit/Seq/Seq_Fes_04.png" alt="Seq_Fes_04.png">
+      </div>
+    </div>
+    <section style="padding:50px"></section>
+    <div class="row">
+      <div class="col text-center">
+        <h1>怪物設計</h1>
+        <p>全程為自己設計，攻擊方式則與組員討論。</p>
+      </div>
+    </div>
+    <div class="row mt-4 justify-content-center">
+      <div class="col-auto">
+        <img id="PreMons" src="Image/Project_Spirit/Seq/Monsters/Pre_Mons_01.png" alt="Pre_Mons_01.png" width="100%">
+      </div>
+      <div class="col-auto">
+        <img id="PreMons" src="Image/Project_Spirit/Seq/Monsters/Pre_Mons_02.png" alt="Pre_Mons_02.png" width="100%">
+      </div>
+      <div class="col-auto">
+        <img id="PreMons" src="Image/Project_Spirit/Seq/Monsters/Pre_Mons_03.png" alt="Pre_Mons_03.png" width="100%">
+      </div>
+      <div class="col-auto">
+        <img id="PreMons" src="Image/Project_Spirit/Seq/Monsters/Pre_Mons_04.png" alt="Pre_Mons_04.png" width="100%">
+      </div>
+      <div class="col-auto">
+        <img id="PreMons" src="Image/Project_Spirit/Seq/Monsters/Pre_Mons_05.png" alt="Pre_Mons_05.png" width="100%">
+      </div>
+    </div>
+    <div class="row mt-4 justify-content-center">
+      <div class="col-auto">
+        <img id="PreMons" src="Image/Project_Spirit/Seq/Monsters/Pre_Mons_06.png" alt="Pre_Mons_06.png" width="100%">
+      </div>
+      <div class="col-auto">
+        <img id="PreMons" src="Image/Project_Spirit/Seq/Monsters/Pre_Mons_07.png" alt="Pre_Mons_07.png" width="100%">
+      </div>
+      <div class="col-auto">
+        <img id="PreMons" src="Image/Project_Spirit/Seq/Monsters/Pre_Mons_08.png" alt="Pre_Mons_08.png" width="100%">
+      </div>
+      <div class="col-auto">
+        <img id="PreMons" src="Image/Project_Spirit/Seq/Monsters/Pre_Mons_09.png" alt="Pre_Mons_09.png" width="100%">
+      </div>
+    </div>
+  </div>
+  <section style="padding:50px"></section>
+  <footer>
+    <div class="container">
+      <section id="Contact">
+        <div class="row py-4 justify-content-around">
+          <div class="text-center">
+            <p>如果有任何問題、委託、工作相關，請聯繫以下帳戶。</p>
+            <p>KUYing8901@gmail.com</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+  <button type="button" id="BackTop" class="toTop-arrow"></button>
+  <script>
+    $(function () {
+      $('#BackTop').click(function () {
+        $('html,body').animate({ scrollTop: 0 }, 150);
+      });
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+          $('#BackTop').fadeIn(222);
+        } else {
+          $('#BackTop').stop().fadeOut(222);
+        }
+      }).scroll();
+    });
+  </script>
+</body>
+
+</html>
