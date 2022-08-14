@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+footer {
+    background-color: gray;
+}
+
+img{
+  height: auto;
+  max-width: 100%;
+}
+
+.IMG{
+  height: 300px;
+  width: 300px;
+}
+
+
+#Project_Cover{
+    overflow:hidden;
+}
+
+#Project_Cover img{transform:scale(1,1);transition: all 0.3s ease-out;}
+#Project_Cover img:hover{transform:scale(1.2,1.2);}
+
+#IntroText{
+    padding: 50px;
+    border-style: solid;
+    border-color: rgb(44, 44, 44);
+    border-width: 2px;
+}
+
+#SeqImage{
+  max-height: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  margin: 5px;
+}
+
+#CarouselColor>li{
+    background-color: gray;
+}
+
+#CarouselColor>li:active{
+    background-color: black;
+}
+
+#ClickImage{
+    transform:opacity(1);transition: all 0.3s ease-out;
+}
+
+#ClickImage:hover{
+    cursor: pointer;
+    opacity:0.5;
+}
+
+.modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+    @media(max-width: 768px) {
+      min-height: calc(100vh - 20px);
+    }
+  }
+
+#SeqIMG{
+  background-color: hsla(0, 0%, 25%, 0.8);
+  padding: 20px;
+}
+
+#PreMons{
+  min-width: 100px;
+  max-width: 200px;
+  height: auto;
+  margin: 5px;
+}
+
+  h1{
+    line-height:3;
+  }
+
+  p{
+    line-height:2;
+  }
+
+  #Contact{
+    color: white;
+  }
+
+#DialogModal{
+  background-color: hsla(0, 0%, 25%, 0.8);
+  padding: 20px;
+  max-width: 1000px;
+  color: white;
+}
+
+  .toTop-arrow {
+	width: 3.5rem;
+	height: 3.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 31px;
+	height: 7px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.4rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.4rem;
+}
+.toTop-arrow:focus {outline: none;}
