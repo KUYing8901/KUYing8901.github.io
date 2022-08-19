@@ -25,10 +25,10 @@ img{
 #Project_Cover img:hover{transform:scale(1.2,1.2);}
 
 #IntroText{
-    padding: 50px;
-    border-style: solid;
-    border-color: rgb(44, 44, 44);
-    border-width: 2px;
+  padding: 50px;
+  border-style: solid;
+  border-color: rgb(44, 44, 44);
+  border-width: 2px;
 }
 
 #SeqImage{
@@ -40,20 +40,29 @@ img{
 }
 
 #CarouselColor>li{
-    background-color: gray;
+  background-color: gray;
 }
 
 #CarouselColor>li:active{
-    background-color: black;
+  background-color: black;
 }
 
 #ClickImage{
-    transform:opacity(1);transition: all 0.3s ease-out;
+  transform:opacity(1);transition: all 0.3s ease-out;
 }
 
 #ClickImage:hover{
-    cursor: pointer;
-    opacity:0.5;
+  cursor: pointer;
+  opacity:0.5;
+}
+
+#ClickCover{
+  transform:opacity(1);transition: all 0.3s ease-out;
+}
+
+#ClickCover:hover{
+  cursor: pointer;
+  opacity:0.8;
 }
 
 .modal-dialog {
@@ -96,6 +105,12 @@ img{
   padding: 20px;
   max-width: 1000px;
   color: white;
+}
+
+#Zala>img{
+  width: auto;
+  max-height: 800px;
+  padding: 10px; 
 }
 
   .toTop-arrow {
